@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+:root{
+    --color-primary: #24FFBC;
+    --bg-color-1: #0B0B0F;
+    --bg-color-2: rgba(26, 26, 34, .9);
+    --bg-color-3: #211A1A;
+    --bg-color-4: #212127;
+    --bg-color-5: #1B1E22;
+    --bg-color-6: #000000;
+    --text-color: #F5F5F5;
+    --icons-on-dark: #83838D;
+    --tw-font-sf: "SF Pro Display", sans-serif;
+    --font-inter:   "Inter", sans-serif;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('//fonts/sf-pro-display/SFProDisplay-Regular.woff2') format('woff2'),
+         url('//fonts/sf-pro-display/SFProDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('//fonts/sf-pro-display/SFProDisplay-Bold.woff2') format('woff2'),
+         url('//fonts/sf-pro-display/SFProDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+body{
+    /* -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale; */
+    font-family: "Inter", sans-serif;
+    
+}
+
